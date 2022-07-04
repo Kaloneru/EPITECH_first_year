@@ -1,0 +1,126 @@
+note : 101
+
+Preliminary (0 / 2) :
+Banned functions used: my_rpg:atoi.
+Too many style errors (1 / 1) :
+120 majeurs
+3 mineurs
+Closing the window (1 / 1) :
+
+Events (1 / 1) :
+
+Animated Sprites (1 / 1) :
+
+Framerate/Animations (1 / 1) :
+
+Framerate/Movement (1 / 1) :
+
+Fighting (12 / 13) :
+There is a fighting system (turn based / ARPG / FPS)
+You can fight with playable characters
+You can fight several enemies and eventually choose a different target each turn
+You have different options while fighting (attack, spell, items, ...)
+You can escape a fight
+Levelling and characteristics (4 / 8) :
+Your character win experience by doing action (winning fight, completing quest, ...)
+Your character can level up and the necessary experience for each subsequent level is increased
+Environnement interraction (6 / 9) :
+There is NPC / environnement in the game and you can speak with them
+You can fight the NPCs or have other interraction with them
+Quest (5 / 13) :
+There is at least one quest in the game
+Game beginning & ending (0 / 3) :
+
+Bonus (1 / 60) :
+changement de curseur
+Particles (0 / 15) :
+
+Visuals rendering (0 / 10) :
+
+Colliding system (8 / 15) :
+The collision system is only between one between the characters and fixed entities (e.g tree, rocks, houses, ...)
+Tilemapping
+Physics (0 / 5) :
+
+Starting menu (5 / 5) :
+There is a starting menu with at least 2 buttons (Play and Quit)
+Settings menu (2 / 6) :
+There is a setting menu with volume option
+How to Play (2 / 3) :
+The game has a "how to play" menu
+Cutscenes (0 / 7) :
+
+Buttons (3 / 3) :
+The buttons in the game have at least 3 different states (idle, hover, clicked)
+In game menu (10 / 10) :
+You can press the 'escape' key to pause the game and open a menu
+There is an option to resume the game
+There is an option to go back to the main menu
+There is an option to close the game
+There are more than 3 different options
+Status Menu (8 / 8) :
+There is a status menu where you can find the characteristics of your character OR the main characteristics of your characters are always displayed (heart / little sword for the fight power / ...)
+There are altered state in the game that are displayed in the status menu (poisoned, cursed, ...)
+The status menu is of high quality and displayed a lot of information
+Inventory (3 / 9) :
+There is an inventory menu where you can see the equipement and the item available for the player
+Skill Tree (0 / 10) :
+
+Quests menu (0 / 6) :
+
+Complex UI (0 / 4) :
+
+Bonus (0 / 15) :
+
+Text (4 / 4) :
+There are different texts / images in the HUD which display interesting informations for the game (other than buttons' texts)
+There is at least one text that is updated
+Inventory HUD (0 / 2) :
+
+Status HUD (0 / 4) :
+
+Skills HUD (0 / 3) :
+
+Spyglasses and hintbox (0 / 4) :
+
+Additional UI element (0 / 4) :
+
+Bonus (0 / 5) :
+
+Save (0 / 10) :
+
+Character customization (0 / 7) :
+
+Bestiary (0 / 10) :
+
+Network (0 / 20) :
+
+Game Quality (0 / 9) :
+
+Bonus (0 / 20) :
+
+Map editor (0 / 15) :
+
+Configuration file (5 / 15) :
+Most of the game is describe in the configuration file
+Scripting language (0 / 15) :
+
+Game Engine (0 / 10) :
+
+Random Map Generator / Procedural generation (0 / 15) :
+
+How invested were the students for this project ? (4 / 4) :
+
+Interest (3 / 4) :
+.conf
+utilisation des branch sur github
+merge
+
+Project management (4 / 4) :
+google calendar
+trello
+discord
+Student's opinion (4 / 4) :
+le groupe prévoit de continuer le jeu
+Coherent sizes (2 / 2) :
+8.3M

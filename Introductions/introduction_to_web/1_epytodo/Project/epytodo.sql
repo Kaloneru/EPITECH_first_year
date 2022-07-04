@@ -1,0 +1,31 @@
+CREATE DATABASE epytodo;
+
+USE epytodo;
+
+CREATE TABLE IF NOT EXISTS user (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    name VARCHAR(150) NOT NULL,
+    firstname VARCHAR(150) NOT NULL,
+    created_at DATETIME NOT NULL,
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE user ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS todo (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    title TEXT NOT NULL UNIQUE,
+    description TEXT NOT NULL,
+    created_at DATETIME NOT NULL,
+    due_time DATETIME NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    user_id SMALLINT UNSIGNED NOT NULL,
+    CONSTRAINT fk_ids
+        FOREIGN KEY (user_id)
+        REFERENCES user(id),
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE todo ENGINE = InnoDB;

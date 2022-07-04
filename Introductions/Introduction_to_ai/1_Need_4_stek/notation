@@ -1,0 +1,21 @@
+note : 13
+
+Preliminary (2 / 2) :
+1.5 crashed
+VREP or CoppeliaSim in the repository? (0 / 0) :
+
+track_1 (5 / 5) :
+A touché aucun obstacle
+Tour en moins d'une minute
+Deux tours complétés
+track_2 (1 / 5) :
+A touché le mur pour les deux tours
+50% du track passé
+track_3 (5 / 5) :
+Parfait
+criss_cross (0 / 2) :
+Touhe le mur les deux fois
+diamond_bonus (0 / 1) :
+Crash dans le mur
+8_bonus (0 / 2) :
+Crash dans le mur

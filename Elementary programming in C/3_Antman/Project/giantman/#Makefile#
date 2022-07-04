@@ -1,0 +1,48 @@
+##
+## EPITECH PROJECT, 2022
+## Makefile
+## File description:
+##
+##
+
+SRC	=	giantman.c	\
+		main.c	\
+		all_words.c	\
+		str_to_int.c	\
+		number.c	\
+
+
+OBJ	=	$(SRC:.c=.o)
+
+REM 	=	*.o     \
+		*.gcno  \
+		*.gcda  \
+
+NAME	= giant_man
+
+CC 	= gcc
+
+CFLAGS	= -Wall -Wextra
+
+CPPFLAGS = -Wall -Wextra -g3
+
+all:	$(NAME)
+
+$(NAME):
+	$(CC) $(CFLAGS) -o $(NAME) $(SRC)
+	make clean
+
+debug:
+	$(CC) $(CPPFLAGS) -o $(NAME) $(SRC)
+	make clean
+
+clean:
+	rm -f $(REM)
+
+  fclean: clean
+	rm -f $(NAME)
+	rm -f unit_tests
+
+re:	fclean all
+
+.PHONY: debug clean fclean re
